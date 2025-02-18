@@ -1,0 +1,159 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desafio básico HTML</title>
+
+</head>
+
+<body>
+    <h1 id="inicio"> TAGS no HTML</h1>
+    <hr>
+
+    <h2>Objetivo</h2>
+    <p>O objetivo deste site é apresentar o entendimento que foi criado sobre as TAGs básicas, que são utilizadas na criação de um site por meio do HTML.</p>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#oQueSaoTags">O que são TAGS?</a></li>
+        <li><a href="#tagsDeTitulo">TAGs de Título?</a></li>
+        <li><a href="#tagsDeFormatacaoDeTexto">TAGs de Formatação de Texto</a></li>
+        <li><a href="#tagsDeProducao">TAGs de Produção e Edição Textual</a></li>
+        <li><a href="#tagsEstruturais">TAGs Estruturais </a></li>
+        <li><a href="#referencias">Referências:</a></li>
+    </ul>
+
+    <h2 id="oQueSaoTags">O que são TAGs?</h2> 
+    <small><a href="#inicio"> (voltar)</a></small>
+    <P> As tags são usadas para informar ao navegador a estrutura do site. Ou seja: quando se escreve um código em HTML, as tags serão interpretadas pelo navegador, produzindo assim a estrutura e o conteúdo visual da página. <br>
+
+        A principal característica das tags é estarem sempre dentro dos sinais de chevron (sinal de “maior que” e “menor que”), ou seja: < >. <br>
+        
+        As tags HTML são divididas em dois tipos: as que precisam de fechamento e as que não precisam de fechamento. As tags que precisam de fechamento possuem a sintaxe < tag > < / tag >, já as que não precisam de fechamento possuem como estrutura < tag / >. <br>
+        
+        Além disso, uma mesma tag pode receber um ou mais atributos, que possuirá um valor que modifica sua estrutura ou funcionalidade.
+    </P><br>
+
+
+    <h2 id="tagsDeTitulo">TAGs de Título</h2>
+    <small><a href="#inicio"> (voltar)</a></small>
+    <p>As TAGs de Título, são utilizadas para demarcar os títulos no site.
+        Suas funcionalidades são demonstradas a seguir:
+    </p> 
+
+    <p><b> h1 </b><br>
+        Essa TAG é a principal do site, pois é reponsável pela criação do cabeçalho/titulos principais.<br>
+        Por padrão ela já inclui a letra em uma forma maior, com o negrito.<br>
+        A recomendação é de que seja utilizada apenas uma vez em todo o site.<br>
+    </p>
+
+    <p><b> h2 </b><br>
+        Essa TAG é utilizada para a criação de titulos secundários. <br>
+        Eles também possuem destaque na página, com formas maiores e em negrito.
+    </p>
+
+    <p><b> h3, h4, h5 e h6 </b><br>
+        Essas tags são também utilizadas como subtitulos, após a utilização do h2. <br>
+        Cada número elenca uma posicção hierárquica do título dentro do texto.
+        Proporcionam destaques aos textos escritos, o que facilita a leitura de grandes artigos.
+    </p>
+    <br>
+    
+
+
+    <h2 id="tagsDeFormatacaoDeTexto">TAGs de Formatação de Texto</h2>
+    <small><a href="#inicio"> (voltar)</a></small>    
+    <p> < b > transforma o texto em <b>negrito;</b></p>
+    <p> < i > transforma o texto em <i>itálico;</i></p>
+    <p> < u > transforma o texto em <u>sublinhado;</u> </p>
+    <p> < ul > Cria uma lista não ordenada; </p>
+    <p> < ol > Cria uma lista ordenada numericamente; </p>
+    <p> < li > Define um item em uma lista, utilizado junto com UL e/ou OL; </p>
+    <p> <mark> < mark > < / mark > </mark> é usada para destacar o texto que é relevante ou importante;</p>
+    <p> <strong>  < strong> < /strong>  </strong>  é usada para definir texto importante e geralment é renderizada em negrito pelos navegadores. Além da ênfase visual, ela também indica uma ênfase semântica mais forte.</p>
+    <p> <sub> < sub >< /sub> </sub>   Define texto em subscrito, que aparece ligeiramente abaixoda linha base do texto normal. É comum em fórmulas químicas e matemáticas;</p>
+    <p> <sup>  < sup> < /sup> </sup>  Define texto em subscrito, que apacere ligeiramente acimada linha base do texto normal. É comum em expoentes matemáticos;  </p>
+    <p> <blockquote>  < blockquote> </ blockquote> </blockquote> Utilizada para definir uma citação em bloco. O navegador geralmente exibe o conteúdo desta tag com uma margem de recuo; </p>
+    <p>  <del> < del> < /del > </del> Utilizada para representar um texto que foi deletado de um documento. O navegador geralmente exibe o texto desta tag com um traço no meio (strike-through); </p>
+    <p> <small> < small> < /small> </small> utilizada para representar texto de tamanho menor, tipicamente utilizado para avisos legais, direitos autorais, ou notas de rodapé;  </p>
+    <p> <abbr title="ABBR"> < abbr>< / abbr >     </abbr>  representa uma abreviação e opcionalmente fornece uma descrição completa para ela. Se presente, o atributo title deve conter a descrição completa e apenas ela;  </p>
+    <p> <a> < a href="" > </a>   Elemento âncora, com o atributo href cria-se um hiperligação nas páginas web, arquivos, endereços de emails, ligações na mesma página ou endereços na URL. O conteúdo dentro de cada <a> precisará indicar o destino do link; </p>
+
+    <p>observação: A tag <b>'FONT'</b> era usada em versões antigas de HTML para definir a fonte, cor e tamanho do texto. No entanto, ela foi descontinuada (deprecated) no HTML4.01 e não deve ser usada em HTML5. Em vez disso, recomenda-se usar CSS para estilizar o texto.</p>
+    <br>
+
+
+    
+    <h2 id="tagsDeProducao">TAGs de Produção e Edição Textual</h2>
+    <small><a href="#inicio"> (voltar)</a></small>
+    <p><b> < p > </b> Essa tag cria um parágrafo.</p>
+    <p><b> < span > </b> Apesar de ter uma funcionalidade e características parecidas com os parágrafos, costumam ser utilizadas apenas para pequenas informações, como legendas de um formulário, legendas de uma imagem, etc. Também pode ser utilizada para formar um container; </p>
+    <p><b> < pre  > < / pre > </b> Tag utilizada para representar texto pré-formatado. Muito utilizada para inserir códigos;</p>
+    <p><b> < / br > </b>Essa tag não necessita de fechamento, ela executa a função de quebra de linha. </p> 
+    <p><b> < / hr > </b>Essa tag não necessita de fechamento, ela forma uma linha horizontal (como a que está no titulo dessa página). </p> 
+    <p><b> < table > </b>: Cria tabelas. </p>
+    <p><b> < form > </b>: Cria formulários para entrada de dados.</p>
+    <br>
+
+    <h2 id="tagsEstruturais"  > TAGs Estruturais </h2>
+    <small><a href="#inicio"> (voltar)</a></small>
+    <p>
+        As tags abaixo são utilizadas nos documentos em HTML5, e têm função estrutural no seu código. Portanto, essas tags têm grande importância na questão semântica da sua página, saber utilizá-las pode adequar o seu código para uma melhor visualização por parte do navegador e do usuário, além de proporcionar uma otimização para os processos de SEO.
+    </p>
+    <ul>
+        <li> 
+            <b> < header > < / header > </b> <br>
+            Essas tags definem um cabeçalho. Portanto, todo conteúdo que estiver dentro dela faz parte de um cabeçalho, podendo ser utilizado dentro de outras sessões. Não confundir com as tags <head>; </li>
+        <li>
+            <b>< main > < / main > </b> <br>
+            Essas tags representam o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação;</li>
+            
+           <li> 
+            <b>< footer >< /footer></b> <br>
+            Essas tags definem um rodapé para a página, geralmente utilizadas no final da página;</li>
+
+            <li>
+                <b>< section > < /section > </b> <br>
+                Essas tags definem uma sessão para sua página;</li>
+
+            <li>
+                <b>< article> < / article ></b> <br> 
+                Essas tags definem um artigo da sua página. Nesse sentido, são utilizadas para separar o conteúdo da sua página. Muito utilizado principalmente por blogs ou páginas de conteúdo;</li>
+
+            <li>
+                <b>< aside> < / aside > </b><br>
+                Essas tags representam uma seção de uma página cujo conteúdo é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo;</li>
+
+            <li> 
+                <b>< nav > < / nav ></b> <br>
+                Essa tag define um conteúdo de navegação. Portanto, é muito utilizado em conjunto com listas e na criação de menus;</li>
+
+            <li> 
+                <b>< div > < / div ></b> <br>
+                Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo. Anteriormente ao HTML5, era utilizado no lugar das categorias acima.</li>
+        
+    </ul>
+
+    <br><br>
+<footer>
+    <h2 id="referencias" > Referências:</h2>
+    <small> <a href="#inicio"> (voltar)</a></small>
+    
+    <p> <a href="https://www.dio.me/articles/as-10-tags-que-todo-desenvolvedor-precisa-conhecer">https://www.dio.me/articles/as-10-tags-que-todo-desenvolvedor-precisa-conhecer</a></p>
+
+    <p> <a href="https://www.hostgator.com.br/blog/tags-html/">https://www.hostgator.com.br/blog/tags-html/</a> </p>
+
+    <p> <a href="https://www.homehost.com.br/blog/tutoriais/tags-html/">https://www.homehost.com.br/blog/tutoriais/tags-html/</a> </p>
+
+    <p> <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote">https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/blockquote</a></p>
+
+    <p> <a href="https://www.dio.me/articles/entendendo-tags-html"> https://www.dio.me/articles/entendendo-tags-html</a> </p>
+    
+</footer>
+
+</body>
+</html>
